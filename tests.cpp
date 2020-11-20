@@ -5,7 +5,7 @@
 
 // Task A: The easy one
 TEST_CASE("testing Task A") {
-  CHECK(makeVector(-3) == vector<int> {});
+  CHECK(makeVector(-10) == vector<int> {});
 	CHECK(makeVector(0) == vector<int> {});
 	CHECK(makeVector(3) == vector<int> {0,1,2});
 	CHECK(makeVector(5) == vector<int> {0,1,2,3,4});
